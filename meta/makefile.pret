@@ -6,7 +6,7 @@
 	:runtime-requirement    [ :on "perl 5.012"^^:CpanId ];
 	:runtime-requirement    [ :on "Keyword::Simple"^^:CpanId ];
 	:runtime-requirement    [ :on "namespace::clean"^^:CpanId ];
-	:test-requirement       [ :on "Test::Modern"^^:CpanId ];
+	:test-requirement       [ :on "Test::More 0.96"^^:CpanId ];
 	:develop-recommendation [ :on "Dist::Inkt 0.001"^^:CpanId ];
 	.
 
