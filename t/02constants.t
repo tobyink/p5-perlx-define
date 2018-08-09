@@ -24,16 +24,16 @@ use strict;
 use warnings;
 use Test::More;
 
-package MyClass {
+package My::Class {
 	use PerlX::Define;
 	define PI => 3.2;
 }
 
-ok('MyClass'->can('PI'));
-is(MyClass::PI,   3.2);
-is(MyClass::PI(), 3.2);
-is('MyClass'->PI, 3.2);
+ok('My::Class'->can('PI'));
+is(My::Class::PI,   3.2);
+is(My::Class::PI(), 3.2);
+is('My::Class'->PI, 3.2);
 
-ok(not 'MyClass'->can('define'));
+ok(not 'My::Class'->can('define'));
 
 done_testing;

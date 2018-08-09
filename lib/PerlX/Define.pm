@@ -49,7 +49,7 @@ sub import
 	});
 	
 	'namespace::clean'->import(
-		cleanee => $caller,
+		-cleanee => $caller,
 		'define',
 	);
 }
