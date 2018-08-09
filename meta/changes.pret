@@ -10,3 +10,10 @@
 		item "Correctly report line and file where a constant was defined in any error messages from eval."^^Change;
 	].
 
+`PerlX-Define 0.101 cpan:TOBYINK`
+	issued  2018-08-09;
+	changeset [
+		item "Spell `-cleanee` correctly."^^Bugfix;
+		item "Don't need Test::Modern; Test::More is sufficient."^^Packaging;
+	].
+
