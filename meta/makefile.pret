@@ -1,0 +1,12 @@
+# This file provides instructions for packaging.
+
+@prefix : <http://ontologi.es/doap-deps#>.
+
+`PerlX-Define`
+	:runtime-requirement    [ :on "perl 5.012"^^:CpanId ];
+	:runtime-requirement    [ :on "Keyword::Simple"^^:CpanId ];
+	:runtime-requirement    [ :on "namespace::clean"^^:CpanId ];
+	:test-requirement       [ :on "Test::Modern"^^:CpanId ];
+	:develop-recommendation [ :on "Dist::Inkt 0.001"^^:CpanId ];
+	.
+

@@ -1,0 +1,12 @@
+# This file acts as the project's changelog.
+
+`PerlX-Define 0.100 cpan:TOBYINK`
+	issued  2018-08-09;
+	label   "First stand-alone release";
+	changeset [
+		item "Split from Moops."^^Packaging;
+		item "Use namespace::clean to wipe away the define keyword after it's been used."^^Change;
+		item "Better describe how this differs from constant.pm."^^Documentation;
+		item "Correctly report line and file where a constant was defined in any error messages from eval."^^Change;
+	].
+
